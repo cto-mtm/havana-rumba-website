@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+firebase-debug*.log*
+ui-debug.log*
+
+# Firebase
+.firebase/
+firebase/.firebase/
+firebase/www/
+
+# Functions build output + email previews
+firebase/functions/lib/
+preview/
+
+# Dependencies
+node_modules/
+
+# Nuxt
+.nuxt/
+.output/
+.data/
+dist/
+
+# Env / secrets
+.env
+.env.*
+.secret.local
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.claude/
+
+# Raw content drops (large source archives — process into www/ instead)
+*.zip
+
+# Deploy ledger (written by scripts/deploy.mjs)
+deploys/LEDGER.md
+
+# Art pipeline scratch (raw Vertex generations stay local)
+art/raw/

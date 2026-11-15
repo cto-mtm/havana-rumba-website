@@ -1,0 +1,725 @@
+{
+  "location": "middletown",
+  "source": "https://havanarumbamiddletown.hrpos.heartland.us/menu",
+  "capturedAt": "2026-11-14",
+  "sections": [
+    {
+      "id": "appetizers",
+      "title": "Appetizers",
+      "items": [
+        {
+          "name": "Camarones al Ajillo",
+          "price": "$14.00",
+          "description": "Shrimp sautéed in olive oil, garlic, and lime juice. Served with aioli and fresh pico de gallo."
+        },
+        {
+          "name": "Cheese Yuca Bites",
+          "price": "$9.00",
+          "description": "Mashed yuca is stuffed with cheese and fried until golden and gooey. Served with a sweet and spicy sauce for dipping."
+        },
+        {
+          "name": "Steak Quesadilla",
+          "price": "$14.00",
+          "description": ""
+        },
+        {
+          "name": "Quesadilla Camarones",
+          "price": "$16.00",
+          "description": ""
+        },
+        {
+          "name": "Chicken & Chorizo Quesadilla",
+          "price": "$13.00",
+          "description": "Grilled chicken, Spanish chorizo, fresh salsa with Monterrey Jack and Goat cheese."
+        },
+        {
+          "name": "Croquetas de Jamón",
+          "price": "$9.00",
+          "description": "Serrano ham croquettes served with a Chipotle aioli sauce for dipping on the side."
+        },
+        {
+          "name": "Croquetas de Pollo",
+          "price": "$9.00",
+          "description": "Chicken croquettes served with a Chipotle aioli sauce for dipping on the side."
+        },
+        {
+          "name": "Cuban Sampler Plate",
+          "price": "$16.00",
+          "description": "1 chicken empanada, 3 chicken and ham croquettes and one Cuban tamale."
+        },
+        {
+          "name": "Cuban Tamale",
+          "price": "$7.00",
+          "description": "Fresh corn tamale topped with roasted pork and mojo criollo sauce."
+        },
+        {
+          "name": "Empanadas",
+          "price": "$10.00",
+          "description": "2 Flaky pastries stuffed with your choice of: chicken, ground beef, or cheese & spinach; served with roasted pepper sour cream."
+        },
+        {
+          "name": "Entremes",
+          "price": "$14.00",
+          "description": "Serrano ham, Spanish chorizo and Manchego cheese. Served with Marcona almonds, caramelized walnuts, olives and fruits."
+        },
+        {
+          "name": "Guacamole",
+          "price": "$10.00",
+          "description": "A house favorite. Served with plantain chips."
+        },
+        {
+          "name": "Havana Nachos",
+          "price": "$16.00 chicken / $17.00 steak / $22.00 chicken & steak",
+          "description": ""
+        },
+        {
+          "name": "Pico de Gallo & Chips",
+          "price": "$7.00",
+          "description": ""
+        },
+        {
+          "name": "Rumba Queso Dip",
+          "price": "$11.00",
+          "description": "Cheese sauce topped with Spanish chorizo, fresh salsa and guacamole. Served with plantain chips."
+        },
+        {
+          "name": "Tapeo Criollo",
+          "price": "$31.00",
+          "description": "Chicken empanada, Veggie empanada, Cuban tamale, yuca brava “spicy yuca bites”, grilled Spanish chorizo, ham & chicken croquettes, mixed olives and house made roasted bell peppers. The Spanish tradition of sharing tapas, small portions with a wide variety. This sample tower is enough for 4 people."
+        },
+        {
+          "name": "Tostones con Camarones",
+          "price": "$17.00",
+          "description": "Smashed fried green plantains topped with garlic shrimp, Monterey Jack cheese, and fresh salsa."
+        },
+        {
+          "name": "Tostones con Carne",
+          "price": "$15.00",
+          "description": "Smashed fried green plantains topped with shredded beef, Monterey Jack cheese, and fresh salsa."
+        },
+        {
+          "name": "Tostones con Lechón",
+          "price": "$15.00",
+          "description": "Smashed fried green plantains topped with roasted pork, Monterey Jack cheese, and fresh salsa."
+        },
+        {
+          "name": "Tostones con Pollo",
+          "price": "$14.00",
+          "description": "Smashed fried green plantains topped with grilled chicken, Monterey Jack cheese, and fresh salsa."
+        },
+        {
+          "name": "Vegetarian Queso Dip",
+          "price": "$11.00",
+          "description": "Cheese sauce topped with black beans, fresh salsa and guacamole. Served with plantain chips."
+        },
+        {
+          "name": "Vegetarian Tamale",
+          "price": "$6.00",
+          "description": "Fresh corn tamale topped with mojo sauce."
+        },
+        {
+          "name": "Yuca Brava",
+          "price": "$9.00",
+          "description": "Yuca bites topped with aioli, homemade spicy sauce, Manchego cheese sauce and bacon."
+        },
+        {
+          "name": "Short Ribs Quesadilla",
+          "price": "$14.00",
+          "description": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "soups-salads",
+      "title": "Soups & Salads",
+      "items": [
+        {
+          "name": "Ensalada Cubana",
+          "price": "$10.00 full / $6.50 half",
+          "description": "Chopped green leaf lettuce, cherry tomatoes, roasted peppers, cucumbers and red onions. Dressed with olive oil and vinegar."
+        },
+        {
+          "name": "Ensalada de Casa",
+          "price": "$10.00 full / $5.99 half",
+          "description": "Spring mix, tomatoes, cucumbers, avocados and fresh cheese."
+        },
+        {
+          "name": "Blue Cheese Salad",
+          "price": "$11.00 full / $6.50 half",
+          "description": ""
+        },
+        {
+          "name": "Ensalada Tropical",
+          "price": "$11.00 full / $7.00 half",
+          "description": "Mixed greens, mango, orange, strawberries, papaya, avocados, caramelized Spanish walnuts."
+        },
+        {
+          "name": "Rumba Caesar",
+          "price": "$10.00 full / $6.50 half",
+          "description": "Romaine lettuce, shaved Manchego cheese and yuca croutons. Made with our own Caesar dressing."
+        },
+        {
+          "name": "Ensalada de Aguacate",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Ensalada Tomate",
+          "price": "$5.00",
+          "description": ""
+        },
+        {
+          "name": "Ensalada Tomate y Aguacate",
+          "price": "$7.00",
+          "description": ""
+        },
+        {
+          "name": "Frijoles Negros",
+          "price": "$6.00 cup / $7.00 bowl",
+          "description": "Expertly prepared black beans stew, topped with diced Spanish onions. 100% Vegetarian."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "house-specials",
+      "title": "House Specials",
+      "items": [
+        {
+          "name": "Steak Nachos",
+          "price": "$17.00",
+          "description": ""
+        },
+        {
+          "name": "Quesadilla Cubana",
+          "price": "$12.00",
+          "description": ""
+        },
+        {
+          "name": "Frituras de Maíz",
+          "price": "$6.00",
+          "description": ""
+        },
+        {
+          "name": "Papas Rellenas",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Camarones Rebozados",
+          "price": "$24.00",
+          "description": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "entrees",
+      "title": "Entrées",
+      "items": [
+        {
+          "name": "Fricasé de Pollo",
+          "price": "$20.00",
+          "description": "This Cuban favorite is made with boneless chicken, carrots and potatoes, slow cooked in a wine, tomato creole sauce. Served with congri rice and sweet plantains."
+        },
+        {
+          "name": "Pollo a la Milanesa",
+          "price": "$24.00",
+          "description": "A boneless chicken breast, lightly breaded and fried, topped with Serrano ham and melted Provolone cheese, over sofrito sauce. Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Pollo a Mojo",
+          "price": "$19.00",
+          "description": "A boneless chicken breast marinated with citrus juices grilled. Topped with grilled onions and mojo criollo sauce. Served with congri rice and sweet plantains."
+        },
+        {
+          "name": "Pollo Asado",
+          "price": "$21.00",
+          "description": "A chicken half marinated with sour orange, garlic and spices, roasted to perfection. Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Rollo de Pollo",
+          "price": "$21.00",
+          "description": ""
+        },
+        {
+          "name": "Pollo con Champiñones",
+          "price": "$23.00",
+          "description": "Thinly sliced boneless chicken breast grilled with a cilantro-garlic rub, topped with sautéed mushrooms and cheese sauce. Served with congri rice and sweet plantains."
+        },
+        {
+          "name": "Pollo con Queso",
+          "price": "$20.00",
+          "description": "Chicken breast strips, grilled until crispy, with bell peppers, onions, garlic, lime juice and topped with our queso sauce. Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Pollo Empanizado",
+          "price": "$20.00",
+          "description": "A marinated boneless chicken breast, lightly breaded and fried. Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Lechón Asado",
+          "price": "$21.00",
+          "description": "The famous Cuban pork. Marinated in citrus juices, garlic, and Cuban spices. Slow roasted for hours. Served with congri rice and yuca con mojo (boiled cassava root with mojo sauce)."
+        },
+        {
+          "name": "Masas de Puerco",
+          "price": "$21.00",
+          "description": "Morsels of marinated fresh pork, fried until crisp on the outside and tender in the inside. Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Palomilla Steak",
+          "price": "$25.00",
+          "description": "Marinated thinly sliced Top Sirloin steak, topped with grilled onions. Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Pinchos del Solomillo",
+          "price": "$31.00",
+          "description": "Grilled fillet mignon skewer topped with green chimichurri sauce. Served with black beans, white rice, avocados and sweet plantains."
+        },
+        {
+          "name": "Picadillo",
+          "price": "$19.00",
+          "description": ""
+        },
+        {
+          "name": "Ropa Vieja",
+          "price": "$22.00",
+          "description": "Shredded beef, cooked with bell peppers, onions, and olives in a wine and tomato Creole sauce. Served with congri rice and sweet plantains."
+        },
+        {
+          "name": "Steak Chimichurri",
+          "price": "$29.00",
+          "description": "Grilled skirt steak with red and green chimichurri sauce on the side for dipping. Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Vaca Frita (Beef)",
+          "price": "$22.00",
+          "description": "Our famous shredded beef, grilled until crispy with bell peppers, onions, garlic and lime juice. Served with rice, black beans and sweet plantains. Also available with chicken."
+        },
+        {
+          "name": "Parrilla Habanera",
+          "price": "$46.00",
+          "description": "Palomilla steak (sirloin steak), Pollo Asado (roasted chicken) and grilled Spanish Chorizo. Served with tostones (fried green plantains), rice, black beans and sweet plantains. For 2 people"
+        },
+        {
+          "name": "Enchilado de Mariscos",
+          "price": "$22.00",
+          "description": "Shrimp, white fish, scallops and calamari cooked in wine-tomato creole sauce. Served with white rice, Cuban salad, and sweet plantains."
+        },
+        {
+          "name": "Mariscos a la Crema",
+          "price": "$25.00",
+          "description": ""
+        },
+        {
+          "name": "Mango-Glazed Salmon",
+          "price": "$27.00",
+          "description": ""
+        },
+        {
+          "name": "Costilla de Res",
+          "price": "$29.00",
+          "description": ""
+        },
+        {
+          "name": "Cuban Spaghetti",
+          "price": "$19.00",
+          "description": ""
+        },
+        {
+          "name": "Pescado a la Parrilla",
+          "price": "$22.00",
+          "description": "Grilled Swai fish fillet with a cilantro and garlic rub. Served with rice, black beans, aioli, and sweet plantains."
+        },
+        {
+          "name": "Zarzuela de Mariscos",
+          "price": "$25.00",
+          "description": "Traditional Spanish aromatic seafood stew cooked in a wine tomato sauce with a combination of shrimp, white fish, scallops and calamari. Served with steam rice and sweet plantains."
+        },
+        {
+          "name": "Cubano Vegetariano",
+          "price": "$19.00",
+          "description": "Spinach and cheese empanada, yuca con mojo (boiled cassava root), white rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Grilled Veggies Platter",
+          "price": "$18.00",
+          "description": "Zucchini, mushrooms, squash, bell peppers, onions and sofrito sauce and topped with Manchego cheese. Served with rice, black beans, and sweet plantains."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "sandwiches",
+      "title": "Sandwiches",
+      "items": [
+        {
+          "name": "Churrasco Chicken",
+          "price": "$15.00",
+          "description": "Grilled boneless chicken breast marinated with red Chimichurri sauce. Served on a soft bun topped with Swiss cheese, crispy bacon, lettuce, onions, tomatoes, and our house made honey mustard. Served with French fries."
+        },
+        {
+          "name": "Cubano Sandwich",
+          "price": "$14.00",
+          "description": "Roasted Pork, ham, Swiss cheese, pickles and mustard. Served on a hot pressed Cuban bread with sweet potato fries."
+        },
+        {
+          "name": "Sandwich de Pescado",
+          "price": "$18.00",
+          "description": "Grilled Swai fish fillet. Served on a soft bun with lettuce, tomatoes, onions and our aioli sauce. Served with French fries."
+        },
+        {
+          "name": "Frita Cubana",
+          "price": "$15.00",
+          "description": "Ground chuck patties marinated with Cuban spices. Topped with Spanish Chorizo, provolone cheese and grilled onions. Served on a gourmet bun with spicy aioli sauce, avocados, tomato, spring mix and sweet potato fries."
+        },
+        {
+          "name": "Havana Club",
+          "price": "$15.00",
+          "description": "Grilled chicken, ham, bacon, Swiss cheese, lettuce, tomatoes, grilled onions and honey mustard on hot pressed Cuban bread. Served with French fries."
+        },
+        {
+          "name": "Havana Rumba",
+          "price": "$15.00",
+          "description": "Roasted pork, Spanish chorizo, Serrano ham, Provolone cheese, ham, mustard, pickles and aioli. Served on hot pressed Cuban bread with sweet potato fries."
+        },
+        {
+          "name": "Pan con Lechón",
+          "price": "$10.00",
+          "description": ""
+        },
+        {
+          "name": "Pan con Bistec",
+          "price": "$20.50",
+          "description": ""
+        },
+        {
+          "name": "Vegetariano Press",
+          "price": "$14.00",
+          "description": "Tomatoes, lettuce, onions, grilled zucchini & squash, avocados, roasted peppers, pickles, Swiss cheese, Dijon mustard and our aioli sauce. Served on hot pressed Cuban bread with sweet potato fries."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "sides",
+      "title": "Sides",
+      "items": [
+        {
+          "name": "Chimichurri Rojo",
+          "price": "$6.00 8oz / $0.99 2oz",
+          "description": ""
+        },
+        {
+          "name": "Chimichurri Verde",
+          "price": "$6.00 8oz / $0.99 2oz",
+          "description": ""
+        },
+        {
+          "name": "Mantequilla de Casa",
+          "price": "$6.00 8oz / $0.99 2oz",
+          "description": ""
+        },
+        {
+          "name": "Mariquitas",
+          "price": "$4.00",
+          "description": "Plantain chips."
+        },
+        {
+          "name": "Bread & Butter",
+          "price": "$2.00",
+          "description": ""
+        },
+        {
+          "name": "Aguacate",
+          "price": "$4.50",
+          "description": ""
+        },
+        {
+          "name": "Arroz Blanco",
+          "price": "$4.00",
+          "description": "Steamed white rice."
+        },
+        {
+          "name": "Boniato Frito Blanco",
+          "price": "$6.00",
+          "description": ""
+        },
+        {
+          "name": "Boniato Frito",
+          "price": "$6.00",
+          "description": "Sweet potato fries."
+        },
+        {
+          "name": "Chorizo",
+          "price": "$9.00",
+          "description": ""
+        },
+        {
+          "name": "Congri Rice",
+          "price": "$5.00",
+          "description": "Seasoned black beans and rice, cooked together."
+        },
+        {
+          "name": "Cup of Fruit",
+          "price": "$4.00",
+          "description": ""
+        },
+        {
+          "name": "Bowl of Fruit",
+          "price": "$6.50",
+          "description": ""
+        },
+        {
+          "name": "Grilled Vegetables",
+          "price": "$7.00",
+          "description": "Zucchini, squash, bell peppers, onions, mushrooms, sautéed with sofrito sauce and topped with Manchego cheese."
+        },
+        {
+          "name": "Huevos Fritos",
+          "price": "$3.00",
+          "description": ""
+        },
+        {
+          "name": "Maduros",
+          "price": "$6.00",
+          "description": "Sweet plantains."
+        },
+        {
+          "name": "Papas Fritas",
+          "price": "$6.00",
+          "description": "French fries."
+        },
+        {
+          "name": "Tostones",
+          "price": "$6.00",
+          "description": "Smashed, fried green plantains."
+        },
+        {
+          "name": "Yuca con Mojo",
+          "price": "$6.00",
+          "description": "Boiled cassava, topped with our mojo sauce (garlic, onion, lime juice and olive oil)."
+        },
+        {
+          "name": "Yuca Frita",
+          "price": "$6.00",
+          "description": "Cassava root fries."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "desserts",
+      "title": "Desserts",
+      "items": [
+        {
+          "name": "Cake de Bombón",
+          "price": "$9.50",
+          "description": "Cuban style chocolate cake served with vanilla ice cream."
+        },
+        {
+          "name": "Havana Bananas",
+          "price": "$9.00",
+          "description": "Our signature dessert. Dark Cuban rum flambé bananas served over vanilla bean ice cream."
+        },
+        {
+          "name": "Piña Colada Shortcake",
+          "price": "$9.50",
+          "description": "Delicious toasted pound cake topped with flambé pineapple and ice cream."
+        },
+        {
+          "name": "Tía's Flan",
+          "price": "$7.50",
+          "description": "Aunt Moni’s recipe for creamy vanilla custard, the best in the family."
+        },
+        {
+          "name": "Tres Leches",
+          "price": "$8.50",
+          "description": "A delicious vanilla and 3 milks cake."
+        },
+        {
+          "name": "Chocolate Tres Leches",
+          "price": "$8.50",
+          "description": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "kids-menu",
+      "title": "Kids Menu",
+      "items": [
+        {
+          "name": "Cheese Quesadilla",
+          "price": "$6.00",
+          "description": ""
+        },
+        {
+          "name": "Chicken Quesadilla",
+          "price": "$7.50",
+          "description": ""
+        },
+        {
+          "name": "Chicken Tenders",
+          "price": "$6.99",
+          "description": "Served with french fries and a cup of fresh fruits."
+        },
+        {
+          "name": "Cubanito (Beef)",
+          "price": "$7.99",
+          "description": "Served with rice, grilled veggies and sweet plantains."
+        },
+        {
+          "name": "Cubanito (Chicken)",
+          "price": "$7.99",
+          "description": "Served with rice, grilled veggies and sweet plantains."
+        },
+        {
+          "name": "Cubanito (Pork)",
+          "price": "$7.99",
+          "description": "Served with rice, grilled veggies and sweet plantains."
+        },
+        {
+          "name": "Huevo Frito",
+          "price": "$4.99",
+          "description": ""
+        },
+        {
+          "name": "Grilled Cheese",
+          "price": "$6.50",
+          "description": "Served with french fries and a cup of fresh fruits."
+        },
+        {
+          "name": "Grilled Chicken Breast",
+          "price": "$7.99",
+          "description": "Served with rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Ham & Cheese",
+          "price": "$6.50",
+          "description": ""
+        },
+        {
+          "name": "Mini Cuban Sandwich",
+          "price": "$7.50",
+          "description": "A grilled cheese with ham, pork, pickles and mustard. Served with sweet potatoes and a cup of fresh fruits."
+        },
+        {
+          "name": "Cheeseburger",
+          "price": "$7.50",
+          "description": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "items": [
+        {
+          "name": "Soft Drink",
+          "price": "$3.00",
+          "description": ""
+        },
+        {
+          "name": "Iced Tea",
+          "price": "$2.99",
+          "description": ""
+        },
+        {
+          "name": "Tropical Juice",
+          "price": "$5.00",
+          "description": ""
+        },
+        {
+          "name": "Milk",
+          "price": "$4.00",
+          "description": ""
+        },
+        {
+          "name": "Banana Milkshake",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Chocolate Milkshake",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Coconut Milkshake",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Guava Milkshake",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Mango Milkshake",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Strawberry Milkshake",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Vanilla Milkshake",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Café Cubano",
+          "price": "$3.00",
+          "description": "Flavorful Cuban coffee, served sweetened. Strong enough to keep you dancing all night. Decaf also available."
+        },
+        {
+          "name": "Café Bombón",
+          "price": "$3.50",
+          "description": ""
+        },
+        {
+          "name": "Cortadito",
+          "price": "$3.50",
+          "description": "Cuban coffee with a shot of steamed milk and sugar, for those not brave enough for the Cuban coffee straight up."
+        },
+        {
+          "name": "Café con Leche",
+          "price": "$4.00",
+          "description": "Cuban coffee with extra steamed milk. Great for after dinner."
+        },
+        {
+          "name": "Americano",
+          "price": "$3.50",
+          "description": "Regular or Decaf. Available for those that we haven’t converted to Cuban coffee, yet. Each cup made fresh to order. No Free Refills, sorry"
+        },
+        {
+          "name": "Virgin Margarita",
+          "price": "$6.50",
+          "description": ""
+        },
+        {
+          "name": "Virgin Piña Colada",
+          "price": "$8.00",
+          "description": ""
+        },
+        {
+          "name": "Virgin Mojito",
+          "price": "$6.50",
+          "description": ""
+        },
+        {
+          "name": "Virgin Daiquiri",
+          "price": "$6.75",
+          "description": ""
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

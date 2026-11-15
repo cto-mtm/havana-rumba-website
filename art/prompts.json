@@ -1,0 +1,217 @@
+{
+  "styles": {
+    "engraved": {
+      "refs": [
+        "art/refs/drink-menu.webp",
+        "art/refs/style-anchor.png"
+      ],
+      "template": "The first attached image is the restaurant's printed drink menu. Match the look of ITS illustrations exactly: the deep-green engraved palm fronds in the top corners, the sepia Havana Capitolio and the dark vintage car in the header, the red and pink hibiscus with green leaves in the bottom corners, and the cocktail glasses on the Happy Hour panel.\nThe second attached image is the approved style anchor for this set: match its outline weight, hatching and colouring treatment.\nDraw: [SUBJECT].\nStyle: vintage engraved illustration printed in colour, like a 1950s Havana cigar-box label or travel poster. Dark brown-black engraved outlines with fine etched hatching and crosshatch shading, filled with flat, slightly muted vintage print colours. Palette: [PALETTE]. Keep colours warm and slightly desaturated, never neon, never glossy or photographic.\nBackground: flat pure white (#FFFFFF), no paper texture, no cast shadow on the ground, no vignette.\nComposition: one isolated subject, centered, with a generous empty white margin on every side, nothing touching the edges.\nAbsolutely no text, letters, numbers, logos, signatures, borders or frames."
+    },
+    "texture": {
+      "template": "[SUBJECT]"
+    }
+  },
+  "assets": [
+    {
+      "id": "sheet-drinks",
+      "cells": [
+        {
+          "id": "pina-colada",
+          "subject": "a piña colada served in a halved coconut shell with a paper cocktail umbrella, a pineapple wedge and a straw",
+          "palette": "creamy white drink, brown coconut shell, golden pineapple yellow, a red and yellow paper umbrella",
+          "refs": [
+            "www/public/images/drinks/coconut-cocktail.webp"
+          ]
+        },
+        {
+          "id": "cafecito",
+          "subject": "a small Cuban cafecito espresso cup on a saucer with a little spoon and gentle steam curls rising, next to a short stovetop moka pot",
+          "palette": "rich coffee brown, cream-white porcelain cup with a thin gold rim, aluminium-grey moka pot",
+          "refs": [
+            "www/public/images/drinks/cafe-con-leche.webp"
+          ]
+        },
+        {
+          "id": "margarita",
+          "subject": "a frozen swirl margarita in a wide-bowled margarita glass with a salted rim and a lime wedge, the frozen drink showing a spiral swirl",
+          "palette": "pale lime-green and strawberry-red frozen swirl, white salt rim, lime green wedge",
+          "refs": [
+            "www/public/images/drinks/sangria-glass.webp"
+          ]
+        },
+        {
+          "id": "sangria",
+          "subject": "a large stemmed wine glass of red sangria full of sliced oranges, apple pieces and ice, with an orange wheel on the rim",
+          "palette": "deep wine red sangria, orange and apple fruit, clear glass with light grey hatching",
+          "refs": [
+            "www/public/images/drinks/sangria.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sheet-dishes",
+      "cells": [
+        {
+          "id": "cubano",
+          "subject": "a Cuban sandwich (Cubano) on pressed Cuban bread cut diagonally, the two halves stacked to show layers of roast pork, ham, Swiss cheese and pickles, on a small plate",
+          "palette": "golden toasted bread, pink ham, roast pork browns, pale yellow Swiss cheese, green pickles, cream plate",
+          "refs": [
+            "www/public/images/food/mains/cubano-sandwich.webp"
+          ]
+        },
+        {
+          "id": "ropa-vieja",
+          "subject": "a plate of shredded beef (ropa vieja style) topped with pickled onions, with chunks of boiled yuca on the side",
+          "palette": "rich reddish-brown shredded beef, magenta-pink pickled onions, cream-white yuca, cream plate",
+          "refs": [
+            "www/public/images/food/mains/shredded-meat-pickled-onion-yuca.webp"
+          ]
+        },
+        {
+          "id": "empanadas",
+          "subject": "three golden crimped empanadas on a small plate with a little bowl of dipping sauce",
+          "palette": "golden-brown crimped pastry, red dipping sauce, cream plate",
+          "refs": [
+            "www/public/images/food/appetizers/empanadas.webp"
+          ]
+        },
+        {
+          "id": "tres-leches",
+          "subject": "a slice of tres leches layer cake on a dessert plate with a fork",
+          "palette": "pale cream sponge cake, white whipped topping, a cherry red accent, cream plate, silver fork",
+          "refs": [
+            "www/public/images/food/desserts/tres-leches.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palm-a",
+      "aspect": "4:3",
+      "subject": "a cluster of three long arching coconut palm fronds radiating from one point at the lower left, leaflets drawn individually with a central rib and hatching, like the palm fronds in the menu's top corners",
+      "style": "engraved",
+      "palette": "deep palm green #2F5A2E and #3F6B3B with darker green hatching and a few olive highlights"
+    },
+    {
+      "id": "palm-b",
+      "aspect": "3:4",
+      "subject": "a single long feathery coconut palm frond curving gracefully from bottom to top, each leaflet drawn individually with engraved hatching",
+      "style": "engraved",
+      "palette": "deep palm green #2F5A2E and #3F6B3B with darker green hatching and a few olive highlights"
+    },
+    {
+      "id": "mojito",
+      "refs": [
+        "www/public/images/drinks/mojito.webp"
+      ],
+      "subject": "a mojito in a tall highball glass with ice cubes, muddled mint leaves, a lime wheel on the rim, a sprig of mint on top and a straw, matching the drink in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "fresh mint green, pale lime yellow-green, clear glass shown with light grey-blue hatching, white ice"
+    },
+    {
+      "id": "martini",
+      "subject": "a classic martini glass with a lime wheel on the rim and a cocktail pick with an olive, like the martini on the menu's Happy Hour panel",
+      "style": "engraved",
+      "palette": "pale gold-cream drink, lime green wheel, clear glass with light grey hatching, a green olive"
+    },
+    {
+      "id": "sangria",
+      "refs": [
+        "www/public/images/drinks/sangria.webp"
+      ],
+      "subject": "a large stemmed wine glass of red sangria full of sliced oranges, apple pieces and ice, with an orange wheel on the rim, matching the drink in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "deep wine red sangria, orange and apple fruit, clear glass with light grey hatching"
+    },
+    {
+      "id": "margarita",
+      "refs": [
+        "www/public/images/drinks/sangria-glass.webp"
+      ],
+      "subject": "a frozen swirl margarita in a wide-bowled margarita glass with a salted rim and a lime wedge, the frozen drink showing a spiral swirl, like the glass in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "pale lime-green and strawberry-red frozen swirl, white salt rim, lime green wedge"
+    },
+    {
+      "id": "pina-colada",
+      "refs": [
+        "www/public/images/drinks/coconut-cocktail.webp"
+      ],
+      "subject": "a piña colada served in a halved coconut shell with a paper cocktail umbrella, a pineapple wedge and a straw, like the drink in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "creamy white drink, brown coconut shell, golden pineapple yellow, a red and yellow paper umbrella"
+    },
+    {
+      "id": "cafecito",
+      "refs": [
+        "www/public/images/drinks/cafe-con-leche.webp"
+      ],
+      "subject": "a small Cuban cafecito espresso cup on a saucer with a little spoon and gentle steam curls rising, next to a short stovetop moka pot",
+      "style": "engraved",
+      "palette": "rich coffee brown, cream-white porcelain cup with a thin gold rim, aluminium-grey moka pot"
+    },
+    {
+      "id": "classic-car",
+      "aspect": "16:9",
+      "subject": "a 1950s American classic car (a rounded 1950s sedan with chrome bumpers, whitewall tyres and small tail fins) seen in three-quarter side view, like the old car in the menu header, parked on a short strip of cobblestones",
+      "style": "engraved",
+      "palette": "deep charcoal-black car body like the menu's car, chrome silver trim, white-wall tyres, warm grey cobblestones"
+    },
+    {
+      "id": "capitolio",
+      "aspect": "16:9",
+      "subject": "the Havana Capitolio building with its tall dome and colonnaded facade, flanked by a few royal palm trees, seen as a wide architectural vignette like the skyline in the menu header",
+      "style": "engraved",
+      "palette": "warm sepia and sand tones like the menu header (#C9A97A, #8A6A44), cream highlights, palm trees in muted green"
+    },
+    {
+      "id": "cubano",
+      "refs": [
+        "www/public/images/food/mains/cubano-sandwich.webp"
+      ],
+      "subject": "a Cuban sandwich (Cubano) on pressed Cuban bread cut diagonally, the two halves stacked to show layers of roast pork, ham, Swiss cheese and pickles, on a small plate, matching the dish in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "golden toasted bread, pink ham, roast pork browns, pale yellow Swiss cheese, green pickles, cream plate"
+    },
+    {
+      "id": "ropa-vieja",
+      "refs": [
+        "www/public/images/food/mains/shredded-meat-pickled-onion-yuca.webp"
+      ],
+      "subject": "a plate of shredded beef (ropa vieja style) topped with pickled onions, with chunks of boiled yuca on the side, matching the dish in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "rich reddish-brown shredded beef, magenta-pink pickled onions, cream-white yuca, cream plate"
+    },
+    {
+      "id": "empanadas",
+      "refs": [
+        "www/public/images/food/appetizers/empanadas.webp"
+      ],
+      "subject": "three golden crimped empanadas on a small plate with a little bowl of dipping sauce, matching the dish in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "golden-brown crimped pastry, red dipping sauce, cream plate"
+    },
+    {
+      "id": "tres-leches",
+      "refs": [
+        "www/public/images/food/desserts/tres-leches.webp"
+      ],
+      "subject": "a slice of tres leches layer cake on a dessert plate with a fork, matching the dessert in the third attached image (the subject reference photo; redraw it, do not copy the photo)",
+      "style": "engraved",
+      "palette": "pale cream sponge cake, white whipped topping, a cherry red accent, cream plate, silver fork"
+    },
+    {
+      "id": "hibiscus",
+      "aspect": "4:3",
+      "style": "engraved",
+      "subject": "a spray of two open red hibiscus flowers and one bud with long stamens, surrounded by glossy tropical leaves and a monstera leaf, arranged as a corner cluster that grows from the lower left toward the upper right",
+      "palette": "hibiscus red #C8323C and coral pink petals, golden-yellow stamens, deep leaf green #3F6B3B and #2F5A2E leaves"
+    },
+    {
+      "id": "parchment",
+      "style": "texture",
+      "subject": "A seamless tileable texture of warm cream vintage paper (base colour #F2E8D3), extremely subtle fine paper grain and faint fibres, very low contrast, perfectly even lighting, no stains, no vignette, no folds, no text, no objects. The image must tile seamlessly on all four edges."
+    }
+  ]
+}

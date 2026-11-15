@@ -1,0 +1,80 @@
+export default {
+  en: {
+    seoTitle: 'Careers',
+    seoDescription: 'Join the team at Havana Rumba and Mojito — apply for restaurant jobs at our four Cuban restaurants in Louisville.',
+    eyebrow: 'Empleos',
+    title: 'Careers',
+    intro: 'Are you interested in working with us? Fill out the application below or send your resume to {email}.',
+    eeo: 'Havana Rumba is an equal opportunity employer.',
+    form: {
+      legend: 'Application for employment',
+      firstName: 'First name',
+      lastName: 'Last name',
+      email: 'Email',
+      emailHint: 'We’ll contact you at this address.',
+      phone: 'Phone number',
+      position: 'Desired position',
+      positionHint: 'For example: server, host, line cook, bartender.',
+      location: 'Preferred location',
+      anyLocation: 'Any location',
+      availability: 'Availability to work',
+      availabilityHint: 'Select every shift you can work.',
+      morning: 'morning',
+      night: 'night',
+      history: 'Employment history',
+      historyHint: 'Previous jobs, roles and how long you worked there.',
+      required: 'required',
+      invalid: 'Please fix the highlighted fields.',
+      submit: 'Submit application',
+      sending: 'Sending…',
+      success: 'Thank you! Your application has been sent.',
+      error: 'Something went wrong. Please try again or email your resume.'
+    },
+    errors: {
+      firstName: 'Please enter your first name.',
+      lastName: 'Please enter your last name.',
+      email: 'Please enter a valid email address.',
+      phone: 'Please enter a phone number with at least 7 digits.',
+      position: 'Please tell us which position you want.'
+    }
+  },
+  es: {
+    seoTitle: 'Empleos',
+    seoDescription: 'Únete al equipo de Havana Rumba y Mojito: solicita empleo en nuestros cuatro restaurantes cubanos de Louisville.',
+    eyebrow: 'Empleos',
+    title: 'Trabaja con nosotros',
+    intro: '¿Te interesa trabajar con nosotros? Completa la solicitud o envía tu currículum a {email}.',
+    eeo: 'Havana Rumba es un empleador que ofrece igualdad de oportunidades.',
+    form: {
+      legend: 'Solicitud de empleo',
+      firstName: 'Nombre',
+      lastName: 'Apellido',
+      email: 'Correo electrónico',
+      emailHint: 'Te contactaremos en esta dirección.',
+      phone: 'Teléfono',
+      position: 'Puesto deseado',
+      positionHint: 'Por ejemplo: mesero, anfitrión, cocinero, bartender.',
+      location: 'Restaurante preferido',
+      anyLocation: 'Cualquier restaurante',
+      availability: 'Disponibilidad',
+      availabilityHint: 'Selecciona todos los turnos en los que puedes trabajar.',
+      morning: 'mañana',
+      night: 'noche',
+      history: 'Experiencia laboral',
+      historyHint: 'Trabajos anteriores, puestos y cuánto tiempo estuviste.',
+      required: 'obligatorio',
+      invalid: 'Por favor, corrige los campos marcados.',
+      submit: 'Enviar solicitud',
+      sending: 'Enviando…',
+      success: '¡Gracias! Tu solicitud ha sido enviada.',
+      error: 'Algo salió mal. Inténtalo de nuevo o envía tu currículum por correo.'
+    },
+    errors: {
+      firstName: 'Por favor, escribe tu nombre.',
+      lastName: 'Por favor, escribe tu apellido.',
+      email: 'Por favor, escribe un correo válido.',
+      phone: 'Por favor, escribe un teléfono de al menos 7 dígitos.',
+      position: 'Por favor, dinos qué puesto te interesa.'
+    }
+  }
+}

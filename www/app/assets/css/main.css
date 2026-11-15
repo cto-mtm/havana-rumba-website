@@ -1,0 +1,566 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Client accent fonts carried over from the WordPress site
+   (wp-content/uploads/2022/09) and used on their printed materials.
+   Copperplate Gothic has a single bold weight; Eurostar a single regular. */
+@font-face {
+  font-family: "Copperplate Gothic Bold";
+  src: url("/fonts/copperplate-gothic-bold.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eurostar Extended";
+  src: url("/fonts/eurostar-regular-extended.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ──────────────────────────────────────────────────────────────
+   THEME TOKENS
+   Colors come from app.config.ts (Nuxt UI semantic colors:
+   primary, secondary, accent, …). This block adds typography,
+   depth and motion tokens. @nuxt/fonts auto-loads the families
+   named here — change the names and the fonts follow.
+   ────────────────────────────────────────────────────────────── */
+@theme {
+  /* Typography
+     Base faces (drink-menu look; web stand-ins until the menu designer
+     confirms the print fonts):
+       display   → Playfair Display SC   headings
+       script    → Kaushan Script        Spanish eyebrows, subheads
+       condensed → Archivo Narrow        buttons, menu lists, labels
+       sans      → Archivo               body copy
+     Accents — the client's own type, used sparingly (public/fonts/):
+       copperplate → Copperplate Gothic Bold   nav, title banners (the
+                                               menu's "BEERS / CERVEZAS")
+       eurostar    → Eurostar Extended         small caps kickers, area
+                                               tags, Happy Hour days
+     Brand words — <BrandText> sets these on every "Havana"/"Habana" and
+     "Mojito(s)" automatically:
+       havana → Copperplate Gothic caps, signature red   #EC1C24
+       mojito → Eurostar Extended,       signature green #3DE41A
+     The same faces lead the location pages ([data-brand] below). */
+  --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display SC", ui-serif, Georgia, serif;
+  --font-script: "Kaushan Script", cursive;
+  --font-condensed: "Archivo Narrow", "Archivo", ui-sans-serif, sans-serif;
+  --font-copperplate: "Copperplate Gothic Bold", "Copperplate", "Playfair Display SC", serif;
+  --font-eurostar: "Eurostar Extended", "Archivo", ui-sans-serif, sans-serif;
+  --font-havana: var(--font-copperplate);
+  --font-mojito: var(--font-eurostar);
+  --color-havana-red: #EC1C24;
+  --color-mojito-green: #3DE41A;
+
+  /* Palettes from the drink menu. Semantic mapping lives in app.config.ts:
+     primary = tobacco, secondary = palm, accent = gold, neutral = parchment.
+     hibiscus is the Havana-family accent, palm doubles as the Mojito one. */
+  --color-parchment-50: #FBF8F1;
+  --color-parchment-100: #F6EEDC;
+  --color-parchment-200: #F2E8D3;
+  --color-parchment-300: #E6D8BA;
+  --color-parchment-400: #CDBF9F;
+  --color-parchment-500: #A8987A;
+  --color-parchment-600: #82745B;
+  --color-parchment-700: #5A5045;
+  --color-parchment-800: #3A332B;
+  --color-parchment-900: #262420;
+  --color-parchment-950: #171512;
+
+  --color-tobacco-50: #FAF3EC;
+  --color-tobacco-100: #F1E2D1;
+  --color-tobacco-200: #E2C4A3;
+  --color-tobacco-300: #CFA073;
+  --color-tobacco-400: #B67D4B;
+  --color-tobacco-500: #9A6236;
+  --color-tobacco-600: #85552F;
+  --color-tobacco-700: #6E4A2A;
+  --color-tobacco-800: #4F341F;
+  --color-tobacco-900: #382517;
+  --color-tobacco-950: #22160D;
+
+  --color-palm-50: #EFF5EE;
+  --color-palm-100: #D9E7D6;
+  --color-palm-200: #B3CFAD;
+  --color-palm-300: #87B27F;
+  --color-palm-400: #5E9156;
+  --color-palm-500: #4A7A43;
+  --color-palm-600: #3F6B3B;
+  --color-palm-700: #335631;
+  --color-palm-800: #284328;
+  --color-palm-900: #1D311D;
+  --color-palm-950: #111D11;
+
+  --color-gold-50: #FCF7EA;
+  --color-gold-100: #F7EBC8;
+  --color-gold-200: #F0D88F;
+  --color-gold-300: #E8C562;
+  --color-gold-400: #E2B64A;
+  --color-gold-500: #C99A2E;
+  --color-gold-600: #A67B22;
+  --color-gold-700: #7E5C1B;
+  --color-gold-800: #5C4317;
+  --color-gold-900: #3D2D10;
+  --color-gold-950: #241A09;
+
+  --color-hibiscus-50: #FCEFEC;
+  --color-hibiscus-100: #F8D9D2;
+  --color-hibiscus-200: #F0AFA2;
+  --color-hibiscus-300: #E5806C;
+  --color-hibiscus-400: #D85F48;
+  --color-hibiscus-500: #C9472F;
+  --color-hibiscus-600: #A93825;
+  --color-hibiscus-700: #862C1E;
+  --color-hibiscus-800: #642218;
+  --color-hibiscus-900: #431711;
+  --color-hibiscus-950: #280D09;
+
+  /* Banner fill (the menu's dark espresso title boxes) */
+  --color-espresso: #30251C;
+
+  /* Depth scale — use shadow-soft / shadow-lift / shadow-deep */
+  --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.04), 0 4px 12px rgb(0 0 0 / 0.06);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.05), 0 12px 32px rgb(0 0 0 / 0.10);
+  --shadow-deep: 0 8px 16px rgb(0 0 0 / 0.08), 0 32px 64px rgb(0 0 0 / 0.16);
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-gradient: gradient-pan 18s ease infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-14px) rotate(3deg); }
+  }
+
+  @keyframes gradient-pan {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+}
+
+/* Parchment page, charcoal ink. Unlayered so it wins over Nuxt UI's
+   defaults; shades chosen to keep body and muted text ≥ 4.5:1 on parchment. */
+:root {
+  --ui-bg: var(--color-parchment-200);
+  --ui-bg-muted: var(--color-parchment-300);
+  --ui-bg-elevated: var(--color-parchment-100);
+  --ui-bg-accented: var(--color-parchment-300);
+  --ui-bg-inverted: var(--color-parchment-900);
+  --ui-text: var(--color-parchment-800);
+  --ui-text-muted: var(--color-parchment-700);
+  --ui-text-dimmed: var(--color-parchment-700);
+  --ui-text-toned: var(--color-parchment-800);
+  --ui-text-highlighted: var(--color-parchment-900);
+  --ui-text-inverted: var(--color-parchment-100);
+  --ui-border: var(--color-parchment-400);
+  --ui-border-muted: var(--color-parchment-300);
+  --ui-border-accented: var(--color-parchment-500);
+  --ui-border-inverted: var(--color-parchment-900);
+  --ui-primary: var(--ui-color-primary-700);
+  --ui-secondary: var(--ui-color-secondary-600);
+  --ui-accent: var(--ui-color-accent-400);
+
+  /* Brand slots — parent (drink menu) values; overridden per location below */
+  --banner-src: url("/images/brand/ornament/banner.svg");
+  --banner-end-src: url("/images/brand/ornament/banner-end.svg");
+  --brand-accent: var(--color-gold-300);
+}
+
+/* ──────────────────────────────────────────────────────────────
+   LOCATION BRANDS
+   Location pages (and their cards) keep the parent menu frames but wear
+   their own restaurant's colours and lettering, taken from each logo /
+   storefront sign. Set with data-brand="…" from `brand` in
+   app/utils/locations.ts. Heading font swaps through --font-display, so
+   h1/h2/.font-display/.menu-banner all follow inside the scope.
+   ────────────────────────────────────────────────────────────── */
+/* Havana Rumba, Middletown — magenta + sun yellow, tall condensed caps */
+[data-brand="havana"] {
+  --font-display: var(--font-copperplate);
+  --ui-primary: #A3214F;
+  --brand-accent: #F2B705;
+  --banner-src: url("/images/brand/ornament/banner-havana.svg");
+  --banner-end-src: url("/images/brand/ornament/banner-end-havana.svg");
+}
+
+/* Havana Rumba & Tapas Bar, Highlands — red + yellow, same lettering */
+[data-brand="havana-tapas"] {
+  --font-display: var(--font-copperplate);
+  --ui-primary: #B01E23;
+  --brand-accent: #F5C518;
+  --banner-src: url("/images/brand/ornament/banner-havana-tapas.svg");
+  --banner-end-src: url("/images/brand/ornament/banner-end-havana-tapas.svg");
+}
+
+/* Mojito (Mojitos Tapas, Lyndon · Mojito in Havana, St. Matthews) —
+   lime + black + red, geometric lettering, black leaf */
+[data-brand="mojito"] {
+  --font-display: var(--font-eurostar);
+  --ui-primary: #2F5A12;
+  --brand-accent: #B5D334;
+  --banner-src: url("/images/brand/ornament/banner-mojito.svg");
+  --banner-end-src: url("/images/brand/ornament/banner-end-mojito.svg");
+}
+
+[data-brand="havana"] :is(h1, h2, h3, .font-display),
+[data-brand="havana-tapas"] :is(h1, h2, h3, .font-display) {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    /* Paper grain like the printed menu (seamless tile, art/finish.py) */
+    background-image: url("/images/brand/art/parchment.webp");
+    background-size: 512px;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────
+   PAGE TRANSITIONS  (app.pageTransition: { name: 'page' })
+   ~0.5s total: 0.2s out + 0.3s in.
+   ────────────────────────────────────────────────────────────── */
+.page-enter-active {
+  transition: opacity 0.3s var(--ease-out-expo), transform 0.3s var(--ease-out-expo);
+}
+
+.page-leave-active {
+  transition: opacity 0.2s ease-in, transform 0.2s ease-in;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+/* ──────────────────────────────────────────────────────────────
+   LAYERING / Z-PLANES
+   Stack hero/section layers predictably:
+     .plane-back   → backgrounds, video, gradients
+     .plane-mid    → decorative / floating elements
+     .plane-front  → copy and CTAs
+   ────────────────────────────────────────────────────────────── */
+@utility plane-back {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+@utility plane-mid {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+@utility plane-front {
+  position: relative;
+  z-index: 20;
+}
+
+/* ──────────────────────────────────────────────────────────────
+   DEPTH & DIVIDERS
+   ────────────────────────────────────────────────────────────── */
+
+/* Fade a section's background in from the previous one */
+@utility section-fade {
+  background-image: linear-gradient(to bottom, transparent, var(--ui-bg-muted) 12rem);
+}
+
+/* Section that slides up over the one before it (overlap effect): a
+   parchment sheet with the menu's two-step corners and double rule across
+   its top edge (sheet-top.svg; only the top slice carries lines). */
+@utility section-overlap {
+  position: relative;
+  z-index: 20;
+  margin-top: -4rem;
+  border-style: solid;
+  border-color: transparent;
+  /* Only the top border takes space; the image's side columns paint into
+     the padding, so content width is unchanged. */
+  border-width: 40px 0 0;
+  border-image: url("/images/brand/ornament/sheet-top.svg") 40 40 0 fill / 40px 40px 0 stretch;
+}
+
+/* Soft gradient hairline divider */
+@utility divider-soft {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(to right, transparent, var(--ui-border-accented), transparent);
+}
+
+/* Overlay to keep hero copy legible over video / imagery */
+@utility scrim {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.15), rgb(0 0 0 / 0.55));
+}
+
+/* Animated gradient placeholder for the hero when no video is set */
+@utility hero-animated-bg {
+  background: linear-gradient(
+    120deg,
+    var(--ui-color-primary-900),
+    var(--ui-color-secondary-700),
+    var(--ui-color-accent-800),
+    var(--ui-color-primary-800)
+  );
+  background-size: 300% 300%;
+  animation: var(--animate-gradient);
+}
+
+/* ──────────────────────────────────────────────────────────────
+   MENU FRAMES  (the drink menu's boxes, as 9-slice border images)
+     .frame          → parchment box, double charcoal rule, 2-step corners
+     .frame-dark     → charcoal panel, cream inner rule (Happy Hour)
+     .frame-sm       → small parchment box / outline button
+     .frame-dark-sm  → small charcoal box / primary button
+     .menu-banner    → espresso title box: notched corners, gold double
+                       outline, gold ornament on both ends
+   The SVGs carry the fill, so never add bg-* / rounded-* / ring-* to a
+   framed element. Sources: public/images/brand/ornament/.
+   ────────────────────────────────────────────────────────────── */
+@utility frame {
+  border: 2px solid transparent;
+  border-image: url("/images/brand/ornament/frame-light.svg") 40 fill / 40px stretch;
+}
+
+@utility frame-dark {
+  border: 2px solid transparent;
+  border-image: url("/images/brand/ornament/frame-dark.svg") 40 fill / 40px stretch;
+  color: var(--color-parchment-100);
+}
+
+@utility frame-sm {
+  border: 2px solid transparent;
+  border-image: url("/images/brand/ornament/frame-light-sm.svg") 20 fill / 20px stretch;
+}
+
+@utility frame-dark-sm {
+  border: 2px solid transparent;
+  border-image: url("/images/brand/ornament/frame-dark-sm.svg") 20 fill / 20px stretch;
+  color: var(--color-parchment-100);
+}
+
+@layer components {
+  .menu-banner {
+    position: relative;
+    display: block;
+    margin-inline: 1.25rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    border-image: var(--banner-src) 20 fill / 20px stretch;
+    color: var(--color-parchment-100);
+    font-family: var(--font-copperplate);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+
+  .menu-banner::before,
+  .menu-banner::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: calc(100% + 4px);
+    aspect-ratio: 24 / 60;
+    background: var(--banner-end-src) no-repeat center / contain;
+  }
+
+  .menu-banner::before {
+    left: 0;
+    transform: translate(-90%, -50%);
+  }
+
+  .menu-banner::after {
+    right: 0;
+    transform: translate(90%, -50%) scaleX(-1);
+  }
+
+  /* Brand words (<BrandText>): the restaurants' own lettering wherever
+     "Havana"/"Habana" or "Mojito(s)" appears. Inherit size and colour. */
+  .brand-havana {
+    font-family: var(--font-havana);
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--color-havana-red);
+  }
+
+  .brand-mojito {
+    font-family: var(--font-mojito);
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--color-mojito-green);
+  }
+
+  /* Spanish eyebrow / subhead, as on the menu ("Crafts & Imports — $6") */
+  .eyebrow-script {
+    font-family: var(--font-script);
+    color: var(--ui-primary);
+    letter-spacing: 0;
+  }
+
+  /* Menu-style action: condensed caps inside a small frame */
+  .btn-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-family: var(--font-condensed);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: transform 0.2s var(--ease-out-expo), filter 0.2s;
+  }
+
+  .btn-menu:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.08);
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────
+   SCROLL-DRIVEN ENTRANCE + PARALLAX
+   Native CSS scroll-driven animations (no JS, no libraries).
+   Browsers without support simply show content statically.
+     .reveal         → fade/slide in as the element enters the viewport
+     .reveal-delay-* → stagger siblings
+     .parallax-slow  → drifts slower than scroll (backgrounds)
+     .parallax-fast  → drifts faster than scroll (foreground accents)
+   ────────────────────────────────────────────────────────────── */
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(32px) scale(0.98); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes parallax-slow {
+  from { transform: translateY(-8%); }
+  to   { transform: translateY(8%); }
+}
+
+@keyframes parallax-fast {
+  from { transform: translateY(20%); }
+  to   { transform: translateY(-20%); }
+}
+
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: reveal-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 80%;
+  }
+
+  .reveal-delay-1 { animation-range: entry 10% entry 90%; }
+  .reveal-delay-2 { animation-range: entry 20% entry 100%; }
+
+  .parallax-slow {
+    animation: parallax-slow linear both;
+    animation-timeline: view();
+  }
+
+  .parallax-fast {
+    animation: parallax-fast linear both;
+    animation-timeline: view();
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────
+   FIRST-LOAD CURTAIN (app.vue .site-loader) — ~0.5 s, then gone
+   ────────────────────────────────────────────────────────────── */
+.site-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  background: var(--color-parchment-200);
+  pointer-events: none;
+  animation: loader-out 0.35s 0.5s var(--ease-out-expo) forwards;
+}
+
+.site-loader__mark {
+  width: 72px;
+  height: 72px;
+  border-radius: 9999px;
+  box-shadow: var(--shadow-lift);
+  animation: loader-mark 0.5s var(--ease-out-expo) both;
+}
+
+@keyframes loader-mark {
+  from { transform: scale(0.6) rotate(-90deg); opacity: 0; }
+  to   { transform: none; opacity: 1; }
+}
+
+@keyframes loader-out {
+  to { opacity: 0; visibility: hidden; transform: translateY(-2%); }
+}
+
+/* Palms sway gently from their stem, like they're in a breeze */
+.palm-sway {
+  transform-origin: 10% 10%;
+  animation: palm-sway 7s ease-in-out infinite alternate;
+}
+
+.palm-sway-slow {
+  transform-origin: 90% 10%;
+  animation: palm-sway 9s ease-in-out -3s infinite alternate;
+}
+
+@keyframes palm-sway {
+  from { transform: rotate(-2.5deg); }
+  to   { transform: rotate(2.5deg); }
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  .site-loader {
+    display: none;
+  }
+
+  .palm-sway,
+  .palm-sway-slow,
+  .reveal,
+  .parallax-slow,
+  .parallax-fast,
+  .animate-float,
+  .animate-float-slow,
+  .hero-animated-bg {
+    animation: none !important;
+  }
+
+  .page-enter-active,
+  .page-leave-active {
+    transition: none;
+  }
+}

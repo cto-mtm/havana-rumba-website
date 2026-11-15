@@ -1,0 +1,18 @@
+{
+  "palm-cluster": { "src": "art/raw/palm-a-1.png", "kind": "art", "max": 1000, "holes": true },
+  "palm-frond":   { "src": "art/raw/palm-b-2.png", "kind": "art", "max": 1000, "holes": true },
+  "hibiscus":     { "src": "art/raw/hibiscus-1.png", "kind": "art", "max": 900, "holes": true },
+  "capitolio":    { "src": "art/raw/capitolio-1.png", "kind": "art", "max": 1400, "holes": true },
+  "classic-car":  { "src": "art/raw/classic-car-0.png", "kind": "art", "max": 1000 },
+  "mojito":       { "src": "art/raw/mojito-2.png", "kind": "art", "max": 640 },
+  "martini":      { "src": "art/raw/martini-1.png", "kind": "art", "max": 640 },
+  "sangria":      { "src": "art/raw/sangria-1.png", "kind": "art", "max": 640 },
+  "margarita":    { "src": "art/raw/margarita-1.png", "kind": "art", "max": 640 },
+  "pina-colada":  { "src": "art/raw/pina-colada-s1.png", "kind": "art", "max": 640 },
+  "cafecito":     { "src": "art/raw/cafecito-s1.png", "kind": "art", "max": 640 },
+  "cubano":       { "src": "art/raw/cubano-s2.png", "kind": "art", "max": 640 },
+  "ropa-vieja":   { "src": "art/raw/ropa-vieja-s2.png", "kind": "art", "max": 640 },
+  "empanadas":    { "src": "art/raw/empanadas-s2.png", "kind": "art", "max": 640 },
+  "tres-leches":  { "src": "art/raw/tres-leches-s2.png", "kind": "art", "max": 640 },
+  "parchment":    { "kind": "paper", "max": 512 }
+}

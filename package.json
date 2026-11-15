@@ -1,0 +1,9 @@
+{
+  "name": "havana-rumba-website",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix www run dev",
+    "deploy": "node scripts/deploy.mjs",
+    "deploy:dry-run": "node scripts/deploy.mjs --dry-run"
+  }
+}

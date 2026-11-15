@@ -1,0 +1,499 @@
+{
+  "location": "lyndon",
+  "source": "https://www.havanarumbaonline.com/lyndon/",
+  "capturedAt": "2026-11-14",
+  "sections": [
+    {
+      "id": "salads",
+      "title": "Salads",
+      "items": [
+        {
+          "name": "House Salad (Mediterranean)",
+          "price": "$11.00",
+          "description": "Spring mix, Marcona almonds, pine nuts, shaved fig bread, Manchego cheese, cherry tomatoes, olives, raisins, cucumbers, red onions with a Muscatel vinaigrette."
+        },
+        {
+          "name": "Caprese Salad",
+          "price": "$11.00",
+          "description": "Tomatoes, fresh mozzarella, and basil topped with olive oil, balsamic vinegar and sea salt."
+        },
+        {
+          "name": "Ensalada de Palmito (Hearts of Palm)",
+          "price": "$11.00",
+          "description": "Spring mix, hearts of palm, tomatoes, roasted pepper, red onions, topped with crumbled feta cheese and avocadoes. Served with olive oil and balsamic vinegar table side."
+        },
+        {
+          "name": "Ensalada Pera Peral (Pears Peral Cheese)",
+          "price": "$11.00",
+          "description": "Spring Mix, sliced pears, dried cranberries, tossed in pear vinaigrette, topped with La Peral blue cheese."
+        },
+        {
+          "name": "Ensalada Cesar (Caesar)",
+          "price": "$10.00",
+          "description": "Romaine hearts, homemade Caesar dressing, Manchego cheese and topped with cassava croutons."
+        }
+      ],
+      "notes": [
+        "Add chicken, shrimp or calamari for $7.00"
+      ]
+    },
+    {
+      "id": "soups",
+      "title": "Soups",
+      "items": [
+        {
+          "name": "Asopado (Rice Soup)",
+          "price": "$11.00 bowl",
+          "description": "Paella style soup with Valencia rice, shrimp, Spanish chorizo, chicken and saffron."
+        },
+        {
+          "name": "Black Beans",
+          "price": "$5.00 cup/7.00 bowl",
+          "description": "Available in a cup or a bowl."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "quesos",
+      "title": "Quesos (Sliced Cheeses)",
+      "items": [
+        {
+          "name": "La Peral",
+          "price": "$11.00",
+          "description": "This rare cheese is creamy melt in your mouth quality. It resembles Italian gorgonzola and has strong olive flavor and pungent aroma. Milder than most blue cheese. Served w/ fig marmalade."
+        },
+        {
+          "name": "Ibérico",
+          "price": "$11.00",
+          "description": "The smooth texture melts in your tongue with a nutty full bodied flavor and finishes with a fruity after taste. Served w/ port berries."
+        },
+        {
+          "name": "Manchego",
+          "price": "$11.00",
+          "description": "The taste is creamy and full bodied and provides a hint of nut and caramel with a light after taste. Served w/ smoked honey."
+        },
+        {
+          "name": "Chef’s Selection",
+          "price": "$23.00",
+          "description": "Chef’s selection of three cheeses."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "embutidos",
+      "title": "Embutidos (Cured Meat)",
+      "items": [
+        {
+          "name": "18 Month Reserve Serrano Ham",
+          "price": "$12.00",
+          "description": "This ham is world renowned for its meaty, woodsy aroma and a delicate rich flavor."
+        },
+        {
+          "name": "Chorizo Los Palacios",
+          "price": "$11.00",
+          "description": "Seasoned with spice smoked paprika from western Spain, it is not flaming hot, but rather spicy."
+        },
+        {
+          "name": "Fuet",
+          "price": "$11.00",
+          "description": "A long slender all pork sausage frequently found in Catalonia. Fuet is a dry cured like salami."
+        },
+        {
+          "name": "Chef’s Selection",
+          "price": "$23.00",
+          "description": "Chef’s Selection of three meats."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "cocas",
+      "title": "Cocas (Catalan Flat Bread)",
+      "items": [
+        {
+          "name": "Italian",
+          "price": "$14.00",
+          "description": "Grilled chicken breast, basil tomatoes fresh mozzarella, pesto sauce, finished with garlic infused extra virgin oil."
+        },
+        {
+          "name": "Vegetariano",
+          "price": "$13.00",
+          "description": "Goat cheese, sofrito sauce, tapenade, roasted pepper, herb salad."
+        },
+        {
+          "name": "Short Ribs",
+          "price": "$15.00",
+          "description": "Braised short ribs, La Peral blue cheese, caramelized onions and herb salad."
+        },
+        {
+          "name": "Mushrooms",
+          "price": "$13.00",
+          "description": "Sun dried tomato Pesto, Crimini and Shiitake, mushrooms, Tetilla cheese, tapenade. Topped with Manchego Cheese snow."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "queso",
+      "title": "Queso (Melted Cheese)",
+      "items": [
+        {
+          "name": "Queso Fundido (Melted Cheese)",
+          "price": "$10.00",
+          "description": "Melted Spanish Tetilla cheese, topped with crispy chorizo and Serrano ham. Served with Blue Dog bread."
+        },
+        {
+          "name": "Queso Dip",
+          "price": "$10.00",
+          "description": "Our Cuban take on this popular appetizer, Cheese sauce topped with Spanish chorizo, pico de gallo, guacamole. Served with tortilla chips."
+        },
+        {
+          "name": "Vegetarian Queso Dip",
+          "price": "$10.00",
+          "description": "Topped with black beans, pico de gallo and guacamole."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "tapas-frias",
+      "title": "Tapas Frias",
+      "items": [
+        {
+          "name": "Guacamole",
+          "price": "$11.00",
+          "description": "Avocados, tomatoes, cilantro, roasted peppers, red onions and lime juice. Served with plantain chips."
+        },
+        {
+          "name": "Trio de Hummus",
+          "price": "$13.00",
+          "description": "Black bean hummus, chickpea hummus and roasted pepper hummus served with olives, almonds, pine nuts, tomatoes, onions, sumac, olive oil and parsley. Served with pita bread."
+        },
+        {
+          "name": "Aceitunas Marinadas (Marinated Olives)",
+          "price": "$11.00",
+          "description": "Marinated mixed Spanish olives."
+        },
+        {
+          "name": "Piquillo Peppers",
+          "price": "$11.00",
+          "description": "Spanish roasted sweet red peppers stuffed with goat cheese. Topped with crushed Marcona almonds and smoked honey."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "tapas-calientes",
+      "title": "Tapas Calientes",
+      "items": [
+        {
+          "name": "Solomillo al Cabrales",
+          "price": "$17.00",
+          "description": "Grilled beef tenderloin topped with Cabrales blue cheese, Spanish port reduction sauce served over roasted mashed potatoes."
+        },
+        {
+          "name": "Tabla de Chimichurri",
+          "price": "$14.00",
+          "description": "Grilled skirt steak served with mashed potatoes, green chimichurri sauce and shredded potato chips."
+        },
+        {
+          "name": "Tostones Con Pollo",
+          "price": "$13.00",
+          "description": "Smashed fried green plantains topped with grilled chicken, cheese, romaine lettuce, pico de gallo and sour cream."
+        },
+        {
+          "name": "Chuleta de Cordero (Lamb Chops)",
+          "price": "$16.00",
+          "description": "Grilled lamb chops served over our piquillo pepper hummus."
+        },
+        {
+          "name": "Rioja Short Ribs",
+          "price": "$22.00",
+          "description": "Rioja wine braised short ribs, served over mashed potatoes with a port wine reduction."
+        },
+        {
+          "name": "Datiles Rellenos (Stuffed Dates)",
+          "price": "$12.00",
+          "description": "Roasted stuffed dates with Capriole goat cheese wrapped in apple wood bacon topped with smoked honey and piquillo sauce."
+        },
+        {
+          "name": "Albóndigas (Meatballs)",
+          "price": "$12.00",
+          "description": "Spanish style meatballs. Seasoned ground Angus beef, pork and Spanish chorizo. Served in a wine tomato sauce. Topped with Manchego cheese snow."
+        },
+        {
+          "name": "Empanadas",
+          "price": "$10.00",
+          "description": "Ground beef, chicken or veggie. Lightly breaded, flaky pastries stuffed and seasoned. Served with chipotle sour cream."
+        },
+        {
+          "name": "Croquetas de Jamon",
+          "price": "$10.00",
+          "description": "Serrano ham croquettes served with a Chipotle aioli sauce for dipping on the side."
+        },
+        {
+          "name": "Croquetas de Pollo",
+          "price": "$9.00",
+          "description": "Chicken croquettes served with a Chipotle aioli sauce for dipping on the side."
+        },
+        {
+          "name": "Pincho de Pollo",
+          "price": "$15.00",
+          "description": "Grilled chicken skewers seasoned w/ Spanish spices, served with piquillo pepper hummus and Alberquina olive oil."
+        },
+        {
+          "name": "Ropa Vieja de Pollo",
+          "price": "$15.00",
+          "description": "Shredded chicken seasoned with bell peppers and onions, cooked in a red wine tomato Creole sauce, served over steamed white rice, black beans and sweet plantains."
+        },
+        {
+          "name": "Chicken Marsala",
+          "price": "$15.00",
+          "description": "Grilled chicken breast seasoned w/Spanish spices topped with a savory sauce of mushrooms, garlic, marsala wine and Manchego cheese snow. Served over mashed potatoes."
+        },
+        {
+          "name": "Tenderloin Skewers",
+          "price": "$16.00",
+          "description": "Grilled fillet Mignon skewers served over mashed potatoes, topped with red chimichurri sauce."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "mariscos",
+      "title": "Mariscos (Seafood)",
+      "items": [
+        {
+          "name": "Gambas al Ajillo (Garlic Shrimp)",
+          "price": "$15.00",
+          "description": "Plump shrimp sautéed with garlic, olive oil and finished with lime juice. Served with garlic aioli, fresh salsa and bread."
+        },
+        {
+          "name": "Mejillones al Sofrito (Mussels)",
+          "price": "$15.00",
+          "description": "Blue Mussels sautéed with olive oil, tomatoes, garlic, onions, finished with wine and cilantro. Served with Blue Dog bread."
+        },
+        {
+          "name": "Calamares a la Romana (Fried Calamari)",
+          "price": "$12.00",
+          "description": "Rings, tentacles, olives and roasted peppers dusted in a seasoned flour and fried until crispy. Served with garlic aioli and sweet chili sauce."
+        },
+        {
+          "name": "Pescadillo Frito (Fried fish)",
+          "price": "$10.00",
+          "description": "Breaded fried white fish strips served with garlic aioli."
+        },
+        {
+          "name": "Croquetas de Mariscos (Seafood Croquettes)",
+          "price": "$10.00",
+          "description": "Shrimp, crawfish, crabmeat, white fish croquettes. Served with avocado aioli."
+        },
+        {
+          "name": "Zarzuela de Mariscos",
+          "price": "$22.00",
+          "description": "Traditional Spanish aromatic seafood stew cooked in Spanish clay casserole with combination of shrimp, white fish, calamari, mussels, clams and scallops in a tomato sauce. Served with Blue Dog bread. (Good for two people)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "tacos-quesadillas",
+      "title": "Tacos & Quesadillas",
+      "items": [
+        {
+          "name": "Fish Tacos",
+          "price": "$12.00",
+          "description": "Breaded white fish lightly fried."
+        },
+        {
+          "name": "Steak Tacos",
+          "price": "$13.00",
+          "description": "Grilled beef tenderloin strips."
+        },
+        {
+          "name": "Pork",
+          "price": "$11.00",
+          "description": "Served over corn tortillas, topped with our house made guacamole, fresh salsa, sour cream, red papadews, peppers, onions and cilantro. Served with tomatillo or chimichurri sauce."
+        },
+        {
+          "name": "Chicken",
+          "price": "$11.00",
+          "description": "Served over corn tortillas, topped with our house made guacamole, fresh salsa, sour cream, red papadews, peppers, onions and cilantro. Served with tomatillo or chimichurri sauce."
+        },
+        {
+          "name": "Vegetables",
+          "price": "$11.00",
+          "description": "Served over corn tortillas, topped with our house made guacamole, fresh salsa, sour cream, red papadews, peppers, onions and cilantro. Served with tomatillo or chimichurri sauce."
+        },
+        {
+          "name": "Quesadillas",
+          "price": "Steak $15  |  Chicken and Chorizo $14  |  Veggies $13",
+          "description": "Served in flour tortillas with Monterey jack cheese, fresh salsa, sour cream and a side of homemade queso dip (available)."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "vegetarianos",
+      "title": "Vegetarianos (Vegetarian)",
+      "items": [
+        {
+          "name": "Boniato Frito (Sweet Potato Fries)",
+          "price": "$7.00",
+          "description": "Sweet potato fries. Served with our popular homemade smoked honey."
+        },
+        {
+          "name": "Patatas Bravas (Spicy Potatoes)",
+          "price": "$10.00",
+          "description": "Fried Potatoes with spicy tomato sauce topped with aioli and Manchego cheese."
+        },
+        {
+          "name": "Veggie Empanadas",
+          "price": "$10.00",
+          "description": "Spinach, corn, peppers, onions and cheese."
+        },
+        {
+          "name": "Gratinado de Setas (Mushrooms Au Gratin)",
+          "price": "$14.00",
+          "description": "Au Gratin of Crimini, Portobello and Shiitake mushrooms, truffle oil, potatoes, roasted garlic, capriole goat cheese, Tetilla cheese. Served with Blue Dog bread."
+        },
+        {
+          "name": "Grilled Vegetables",
+          "price": "$8.00",
+          "description": "Zucchini, squash, red onions, bell peppers and mushrooms sauteed with sofrito sauce and topped with snow manchego cheese."
+        }
+      ],
+      "notes": [
+        "Notice: Consuming raw or undercooked meats, poultry, shellfish or eggs may increase your risk of food borne illness."
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "title": "Sandwiches",
+      "items": [
+        {
+          "name": "Pescado (Fish Sandwich)",
+          "price": "$16.00",
+          "description": "White fish, spicy aioli, chopped tomatoes, lettuce, red onions and avocadoes. Served on a gourmet bun."
+        },
+        {
+          "name": "Frita de Mariscos (Seafood Burger)",
+          "price": "$15.00",
+          "description": "Crabmeat, shrimp, crawfish, and white fish seasoned with Cuban spices, bell peppers, onions and garlic. Served on a gourmet bun with lettuce, slice tomato, red onions and topped with lime avocado aioli."
+        },
+        {
+          "name": "Sandwich Cubano (Cuban Sandwich)",
+          "price": "$14.00",
+          "description": "Roasted pork, ham, Swiss cheese, pickles and mustard, served on a hot pressed Cuban bread."
+        },
+        {
+          "name": "Frita Cubana (Cuban Burger)",
+          "price": "$16.00",
+          "description": "A mix of Black Angus beef, Spanish chorizo and Cuban spices. Served on a gourmet bun with lettuce, tomatoes and onions. Topped with crispy Serrano ham, Swiss cheese and potato strings."
+        },
+        {
+          "name": "De Lomito (Tenderloin Sandwich)",
+          "price": "$16.00",
+          "description": "Grilled beef tenderloin, grilled onions, Swiss cheese and potato strings. Served on a gourmet bun with lettuce and tomatoes."
+        },
+        {
+          "name": "Sandwich de Pollo (Chicken Sandwich)",
+          "price": "$15.00",
+          "description": "Grilled chicken, apple wood bacon, Swiss cheese, baby arugula, tomato, honey aioli."
+        },
+        {
+          "name": "Sandwich de Milanesa",
+          "price": "$15.00",
+          "description": "Lightly breaded chicken breast fried. Topped with Serrano ham and provolone cheese on a gourmet bun over sofrito sauce, lettuce and red onions."
+        },
+        {
+          "name": "Sandwich de Vegetales",
+          "price": "$14.00",
+          "description": "Grilled eggplant, piquillo peppers, zucchini, squash, mushrooms, onions, tomatoes, provolone cheese and roasted pepper cream cheese. Served on a hot pressed Cuban bread."
+        },
+        {
+          "name": "Havana Club",
+          "price": "$15.00",
+          "description": "Grilled chicken, ham, bacon, Swiss cheese, lettuce, tomatoes, and honey mustard on hot pressed Cuban bread."
+        },
+        {
+          "name": "Havana Rumba",
+          "price": "$15.00",
+          "description": "Roasted pork, spanish chorizo, serrano ham, provolone cheese, ham, mustard, pickles and aioli. Served on hot pressed Cuban bread."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "postres",
+      "title": "Postres (Desserts)",
+      "items": [
+        {
+          "name": "Trio de Chocolate",
+          "price": "$11.00",
+          "description": "Chocolate custard, Milk chocolate ice cream, Chocolate mousse, topped with banana brûlée."
+        },
+        {
+          "name": "Flan de queso de Cabra",
+          "price": "$11.00",
+          "description": "Goat cheese flan with Cajeta ice cream and almond brittle."
+        },
+        {
+          "name": "Pudin de banana",
+          "price": "$11.00",
+          "description": "Banana bread pudding served over dark Spanish chocolate sauce topped with house made vanilla bean ice cream."
+        },
+        {
+          "name": "Cuban Flan",
+          "price": "$11.00",
+          "description": "Vanilla custard, served with vanilla ice cream."
+        },
+        {
+          "name": "Cake de Bombón",
+          "price": "$11.00",
+          "description": "Cuban-style chocolate cake, served with vanilla ice cream."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "items": [
+        {
+          "name": "Soft Drinks",
+          "price": "$2.95 (free refills)",
+          "description": "Coke, Diet Coke, Sprite, Mr. Pibb, Pink Lemonade, Fanta Orange"
+        },
+        {
+          "name": "Tropical Juices",
+          "price": "$3.95 (no free refills)",
+          "description": ""
+        },
+        {
+          "name": "Café con Leche",
+          "price": "$4.00",
+          "description": "Cuban coffee with extra steamed milk. Great for after dinner."
+        },
+        {
+          "name": "Café Cubano",
+          "price": "$2.50",
+          "description": "Flavorful Cuban coffee, served sweetened. Strong enough to keep you dancing all night. Decaf also available."
+        },
+        {
+          "name": "Cortadito",
+          "price": "$3.00",
+          "description": "Cuban coffee with a shot of steamed milk and sugar, for those not brave enough for the Cuban coffee straight up."
+        },
+        {
+          "name": "Americano",
+          "price": "$2.25",
+          "description": "Regular or Decaf. Available for those that we haven’t converted to Cuban coffee, yet. Each cup made fresh to order. No Free Refills, sorry."
+        }
+      ],
+      "notes": []
+    }
+  ]
+}
