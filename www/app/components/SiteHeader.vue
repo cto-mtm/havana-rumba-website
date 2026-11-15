@@ -91,8 +91,10 @@ const linkTone = computed(() => solid.value
           height="40"
           class="size-10 rounded-full shadow-soft transition-transform duration-500 group-hover:rotate-[20deg]"
         >
+        <!-- Hidden on the narrowest phones (<360px): with the order and menu
+             buttons it would push the header past the screen edge. -->
         <span
-          class="font-script text-lg"
+          class="hidden font-script text-lg min-[360px]:inline"
           :class="solid ? 'text-primary' : 'text-white/85'"
           aria-hidden="true"
         ><BrandText :text="t('Site.motto')" /></span>
@@ -237,7 +239,7 @@ const linkTone = computed(() => solid.value
       ref="mobileNav"
       popover
       :aria-label="t('AppHeader.mainNav')"
-      class="mobile-nav m-0 h-dvh max-h-none w-screen max-w-none overflow-y-auto bg-inverted p-0 text-inverted"
+      class="mobile-nav m-0 h-dvh max-h-none w-screen max-w-none overflow-x-clip overflow-y-auto bg-inverted p-0 text-inverted"
     >
       <!-- Palm fronds in the corner, like the drink menu -->
       <MenuArt name="palm-cluster" class="pointer-events-none absolute -right-20 -top-10 w-72 -scale-x-100 opacity-60" />

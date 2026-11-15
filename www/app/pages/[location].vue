@@ -334,9 +334,11 @@ useHead({
               <ul class="mt-6 grid gap-x-12 gap-y-7 md:grid-cols-2">
                 <li v-for="item in section.items" :key="item.name" class="reveal">
                   <p class="flex items-baseline gap-3">
-                    <span class="font-condensed text-lg font-bold text-highlighted">{{ item.name }}</span>
-                    <span class="flex-1 border-b border-dotted border-accented" aria-hidden="true" />
-                    <span class="shrink-0 font-condensed text-lg font-bold tabular-nums text-primary">{{ item.price }}</span>
+                    <!-- Multi-size prices ("$16.00 chicken / $17.00 steak / …") wrap
+                         inside their cap instead of pushing the page sideways. -->
+                    <span class="min-w-0 font-condensed text-lg font-bold text-highlighted">{{ item.name }}</span>
+                    <span class="min-w-4 flex-1 border-b border-dotted border-accented" aria-hidden="true" />
+                    <span class="max-w-[60%] shrink-0 text-right font-condensed text-lg font-bold tabular-nums text-primary">{{ item.price }}</span>
                   </p>
                   <p v-if="item.description" class="mt-1 text-sm leading-relaxed text-muted">
                     {{ item.description }}

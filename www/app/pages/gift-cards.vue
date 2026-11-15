@@ -27,12 +27,13 @@ useSeoMeta({
         </p>
 
         <ul class="mt-10 grid gap-6 sm:grid-cols-2">
-          <li v-for="(l, i) in LOCATIONS" :key="l.slug" class="reveal" :class="i % 2 ? 'reveal-delay-1' : ''">
+          <li v-for="(l, i) in LOCATIONS" :key="l.slug" class="reveal min-w-0" :class="i % 2 ? 'reveal-delay-1' : ''">
+            <!-- Badge stacks above the text on phones; side by side from sm up. -->
             <a
               :href="l.giftCardUrl"
               target="_blank"
               rel="noopener"
-              class="frame group relative flex items-center gap-6 p-6 transition-transform duration-300 hover:-translate-y-1.5"
+              class="frame group relative flex flex-col items-start gap-4 p-6 transition-transform duration-300 hover:-translate-y-1.5 min-[420px]:flex-row min-[420px]:items-center min-[420px]:gap-6"
             >
               <!-- Card-shaped badge with the location's own logo -->
               <span class="frame-sm flex aspect-[1.6] w-36 shrink-0 items-center justify-center p-3 transition-transform duration-300 group-hover:-rotate-3 group-hover:scale-105">
@@ -42,7 +43,7 @@ useSeoMeta({
                   class="max-h-full w-auto"
                 >
               </span>
-              <span class="flex-1">
+              <span class="min-w-0 flex-1">
                 <span class="block font-display text-2xl font-semibold text-highlighted"><BrandText :text="l.brand" /></span>
                 <span class="block text-sm text-muted">{{ l.area }}</span>
                 <span class="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
