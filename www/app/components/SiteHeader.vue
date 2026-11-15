@@ -345,6 +345,16 @@ const linkTone = computed(() => solid.value
     left: auto;
     right: anchor(right);
   }
+
+  /* Phones: the button sits near the right edge but the menu is wider than
+     the space to its left, so span the viewport with a 1rem gutter instead. */
+  @media (width < 40rem) {
+    .anchored-menu--end {
+      left: 1rem;
+      right: 1rem;
+      width: auto;
+    }
+  }
 }
 
 .anchored-menu {
