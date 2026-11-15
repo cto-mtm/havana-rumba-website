@@ -370,29 +370,31 @@ function scrollFavorites(dir: 1 | -1) {
 
     <!-- ── STORY STRIP ─────────────────────────────────────── -->
     <section class="px-4 py-20 sm:px-6 lg:px-8" :aria-label="t('PageIndex.story.cta')">
-      <div class="frame-dark mx-auto grid max-w-7xl items-center gap-12 px-8 py-14 sm:px-14 lg:grid-cols-[1.2fr_1fr]">
-        <dl class="grid grid-cols-3 gap-6">
-          <div class="reveal flex flex-col-reverse">
-            <dt class="mt-1 text-sm opacity-70">
+      <div class="frame-dark mx-auto grid max-w-7xl items-center gap-12 px-6 py-14 sm:px-14 lg:grid-cols-[1.2fr_1fr]">
+        <!-- justify-end: in a reversed column that pins the number to the top,
+             so all three line up whatever the label length. -->
+        <dl class="grid grid-cols-3 gap-4 sm:gap-6">
+          <div class="reveal flex flex-col-reverse justify-end">
+            <dt class="mt-2 text-sm leading-snug opacity-70">
               <BrandText :text="t('PageIndex.story.years')" />
             </dt>
-            <dd class="font-display text-5xl font-black text-gold-400 sm:text-6xl">
+            <dd class="font-display text-4xl font-black leading-none text-gold-400 tabular-nums sm:text-6xl">
               {{ yearsOpen }}
             </dd>
           </div>
-          <div class="reveal reveal-delay-1 flex flex-col-reverse">
-            <dt class="mt-1 text-sm opacity-70">
+          <div class="reveal reveal-delay-1 flex flex-col-reverse justify-end">
+            <dt class="mt-2 text-sm leading-snug opacity-70">
               <BrandText :text="t('PageIndex.story.restaurants')" />
             </dt>
-            <dd class="font-display text-5xl font-black text-gold-400 sm:text-6xl">
+            <dd class="font-display text-4xl font-black leading-none text-gold-400 tabular-nums sm:text-6xl">
               {{ LOCATIONS.length }}
             </dd>
           </div>
-          <div class="reveal reveal-delay-2 flex flex-col-reverse">
-            <dt class="mt-1 text-sm opacity-70">
+          <div class="reveal reveal-delay-2 flex flex-col-reverse justify-end">
+            <dt class="mt-2 text-sm leading-snug opacity-70">
               <BrandText :text="t('PageIndex.story.since')" />
             </dt>
-            <dd class="font-display text-5xl font-black text-gold-400 sm:text-6xl">
+            <dd class="font-display text-4xl font-black leading-none text-gold-400 tabular-nums sm:text-6xl">
               2004
             </dd>
           </div>
