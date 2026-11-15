@@ -132,7 +132,8 @@ useHead({
 
     <!-- ── INFO: logo · hours · visit · specials ───────────── -->
     <section class="section-overlap px-4 py-16 sm:px-6 lg:px-8" :aria-label="t('PageLocation.visitTitle')">
-      <div class="mx-auto grid max-w-7xl gap-6 lg:grid-cols-3">
+      <!-- Locations without the weekly specials (Lyndon) get two boxes, not three. -->
+      <div class="mx-auto grid max-w-7xl gap-6" :class="loc.hasWeeklySpecials ? 'lg:grid-cols-3' : 'lg:grid-cols-2'">
         <!-- Visit -->
         <!-- The logo already leads the hero; this box just gets an icon,
              matching the Hours box beside it. -->
@@ -207,17 +208,6 @@ useHead({
               </p>
             </li>
           </ul>
-        </div>
-        <div
-          v-else
-          class="frame reveal reveal-delay-2 p-3"
-        >
-          <img
-            :src="IMAGES.mojito"
-            :alt="t('Images.mojito.alt')"
-            loading="lazy"
-            class="size-full object-cover"
-          >
         </div>
       </div>
     </section>
